@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+    </style>
+    <title>Document</title>
+</head>
+<body class="cuerpo">
+    <div class="contenedor">
+        <div class="reloj"></div>
+        <div class="tiempo">
+            <div class="paisYciudad"></div>
+            <div class="informacionGeneralTiempo"></div>
+            <div class="enunciado"><p>Temperaturas para hoy :</p></div>
+            <div class="previsiones"></div>
+        </div>
+        <div class="password">
+            <div class="passContainer"></div>
+            <div class="inputContainer2">
+                <label for="inputLimite">Elige la longitud de la contraseña =></label>
+                <input type="number" min="8" max="16" name="inputLimite" id="inputLimite">
+            </div>
+            <button class="passGenerator">Generar contraseña</button>
+        </div>
+        <div class="links">
+            <div class="inputContainer">
+                <label for="linkName">Nombre =></label>
+                <input type="text" name="linkName" id="nombreDelLink" class="linkName">
+                <label for="link">Enlace =></label>
+                <input type="text" name="link" id="linkEnCuestion" class="link">
+                <button class="addLink" onClick = "LINK_CONTENT(), LINK_NAME_CONTENT(), GRABAR()">Añadir</button>
+                <button class="borrLink" onClick = "GRABAR()">Borrar</button>
+            </div>
+            <div class="infoContainer">
+                <div class="linkNameContainer"></div>
+                <div class="linkContainer"></div>
+            </div>
+        </div>
+        <div class="containerBotones">
+            <button class="htmlReloj" onclick="location.href = 'reloj.html';"><i class="fas fa-clock"></i></button>
+            <button class="htmlPassword" onclick="location.href = 'password.html';"><i class="fas fa-lock"></i></button>
+            <button class="htmlLinks" onclick="location.href = 'links.html';"><i class="fas fa-link"></i></button>
+            <button class="htmlClima" onclick="location.href = 'clima.html';"><i class="fas fa-cloud"></i></button>
+        </div>
+    </div>
+    
+  <script src="script/script.js"></script>  
+</body>
+</html>
