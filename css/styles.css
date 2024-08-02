@@ -2,7 +2,9 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 100vw;
     min-height: 100vh;
+    max-height: 100vh;
 }
 
 .cuerpo {
@@ -25,7 +27,6 @@ html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 50px;
 }
 
 .reloj {
@@ -34,15 +35,15 @@ html {
     background-color: black;
     color: aqua;
     position: absolute;
-    top: 30px;
+    top: 3%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 2px solid aqua;
     border-radius: 30px;
-    width: 400px;
-    height: 70px;
+    width: 25%;
+    height: 7%;
     font-size: 40px;
 }
 
@@ -55,10 +56,10 @@ html {
     align-items: center;
     justify-content: space-around;
     text-align: center;
-    left: 150px;
-    bottom: 450px;
-    width: 450px;
-    height: 500px;
+    left: 3%;
+    bottom: 45%;
+    width: 25%;
+    height: 51%;
     font-size: 30px;
 }
 
@@ -84,7 +85,7 @@ html {
     align-items: center;
     border: 2px solid aqua;
     border-radius: 30px;
-    height: 50px;
+    height: 9%;
     width: 100%;
 }
 
@@ -115,7 +116,7 @@ html {
     border: 2px solid aqua;
     border-radius: 30px;
     width: 75%;
-    height: 40px;
+    height: 9%;
 }
 
 .previsiones {
@@ -130,7 +131,7 @@ html {
     border-radius: 30px;
     word-spacing: 10px;
     width: 100%;
-    height: 70px;
+    height: 15%;
     font-size: 20px;
     white-space: nowrap;
     overflow-x: auto;
@@ -141,14 +142,14 @@ html {
     font-family: quicksand;
     font-size: 15px;
     position: absolute;
-    left: 1300px;
-    bottom: 600px;
+    left: 72%;
+    bottom: 70%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 500px;
-    height: 220px;
+    width: 25%;
+    height: 23%;
 }
 
 .password:hover {
@@ -167,12 +168,12 @@ html {
     background-color: black;
     color: red;
     position: relative;
-    bottom: 20px;
+    bottom: 13%;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 50px;
+    height: 22%;
     border: 2px solid aqua;
     border-radius: 30px;
     font-size: 30px;
@@ -188,8 +189,8 @@ html {
     background-color: black;
     color: aqua;
     position: relative;
-    bottom: 15px;
-    height: 40px;
+    bottom: 10%;
+    height: 18%;
     width: 80%;
     border: 2px solid aqua;
     border-radius: 30px;
@@ -197,14 +198,14 @@ html {
 
 .passGenerator {
     font-family: quicksand;
-    height: 100px;
-    width: 100px;
+    height: 40%;
+    width: 22%;
     background-color: black;
     color: aqua;
     border: 2px solid aqua;
     border-radius: 50%;
     position: relative;
-    bottom: 10px;
+    bottom: 5%;
     cursor: pointer;
 }
 
@@ -216,13 +217,13 @@ html {
     opacity: 50%;
     font-family: quicksand;
     position: absolute;
-    bottom: 50px;
+    bottom: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 800px;
-    height: 350px;
+    width: 42%;
+    height: 35%;
     font-size: 20px;
 }
 
@@ -241,12 +242,12 @@ html {
     background-color: black;
     color: aqua;
     position: relative;
-    top: 15px;
+    top: 5%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 40px;
+    height: 12%;
     width: 90%;
     border: 2px solid aqua;
     border-radius: 30px;
@@ -254,7 +255,7 @@ html {
 
 .infoContainer {
     width: 100%;
-    height: 300px;
+    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -269,7 +270,7 @@ html {
     flex-direction: column;
     background-color: black;
     color: aqua;
-    height: 230px;
+    height: 80%;
     width: 45%;
     border: 2px solid aqua;
     overflow-y: scroll;
@@ -282,7 +283,7 @@ html {
     align-items: center;
     flex-direction: column;
     background-color: black;
-    height: 230px;
+    height: 80%;
     width: 45%;
     border: 2px solid aqua;
     overflow-y: scroll;
@@ -323,10 +324,10 @@ a {
     justify-content: space-around;
     align-items: center;
     position: absolute;
-    bottom: 50px;
-    right: 80px;
-    height: 60px;
-    width: 300px;
+    bottom: 7%;
+    right: 6%;
+    height: 6%;
+    width: 15%;
 }
 
 .htmlReloj {

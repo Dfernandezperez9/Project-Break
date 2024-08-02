@@ -3,14 +3,17 @@ html {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    max-height: 100vh;
+    max-width: 100vw;
 }
 
 .cuerpo {
+    max-width: 100%;
+    max-height: 100%;
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
     transition: background-image 1s ease-in-out;
-    width: 1800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,16 +21,16 @@ html {
 }
 
 .contenedor {
-    width: 1200px;
-    height: 900px;
+    max-width: 100%;
+    max-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 50px;
 }
 
-.reloj {box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+.reloj {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     font-family: quicksand;
     background-color: black;
     color: aqua;
@@ -63,11 +66,12 @@ html {
     justify-content: space-around;
     align-items: center;
     position: absolute;
-    bottom: 50px;
-    right: 80px;
-    height: 60px;
-    width: 300px;
+    bottom: 7%;
+    right: 6%;
+    height: 6%;
+    width: 15%;
 }
+
 
 .htmlIndex {
     border: none;
